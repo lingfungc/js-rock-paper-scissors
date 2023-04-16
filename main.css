@@ -57,9 +57,10 @@ body {
 }
 
 #result-area {
-  width: 200px;
+  width: 240px;
   text-align: center;
-  color: white;
+  /* color: white; */
+  color: #E60F17;
 }
 
 #play-btn {
