@@ -10,26 +10,33 @@
   <body>
     <div class="page__container">
 
-      <img class="logo" src="assets/logo.png" alt="Le Wagon Logo White">
+      <!-- <img class="logo" src="assets/logo.png" alt="Le Wagon Logo White"> -->
+
+      <h1 style="color: #F82414;">The Master of Rock Paper Scissors</h1>
 
       <div class="game-container">
         <div class="player-container">
-          <div class="name">Player 1</div>
-          <div id="player-1" style="font-size: 50px;">👊</div>
+          <div class="name">You</div>
+          <div id="player-1" style="font-size: 50px;">
+            <div class="player-choice" data-choice="rock">✊</div>
+            <div class="player-choice" data-choice="paper">🤚</div>
+            <div class="player-choice" data-choice="scissors">✌️</div>
+          </div>
         </div>
 
         <div id="result-area" style="margin: 0 50px; font-size: 30px;">Result Area</div>
 
         <div class="player-container">
-          <div class="name">Player 2</div>
-          <div id="player-2" style="font-size: 50px;">✋</div>
+          <div class="name">Computer</div>
+          <div id="player-2" style="font-size: 50px;">?</div>
         </div>
       </div>
 
       <div id="play-btn">Let's Play!</div>
+      <div id="again-btn" class="hide">Play Again!</div>
 
       <!-- Our Footer. Feel free to change to something you like! -->
-      <footer class="footer">Made with ❤️ by <a href="http://lewagon.com/" class="link" target="_blank">Le Wagon</a>.</footer>
+      <!-- <footer class="footer">Made with ❤️ by <a href="http://lewagon.com/" class="link" target="_blank">Le Wagon</a>.</footer> -->
 
     </div>
     <script src="index.js"></script>
