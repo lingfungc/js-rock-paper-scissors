@@ -42,7 +42,7 @@ body {
 
 .player-container {
   height: 150px;
-  width: 150px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -54,6 +54,24 @@ body {
 
 .name {
   font-size: 25px;
+}
+
+#player-1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.player-choice {
+  cursor: pointer;
+}
+
+.dim {
+  opacity: 0.4;
+}
+
+.focus {
+  opacity: 1;
 }
 
 #result-area {
@@ -75,6 +93,24 @@ body {
 
 #play-btn:hover {
   background: #F82414;
+}
+
+#again-btn {
+  font-size: 25px;
+  padding: 15px 50px;
+  background: #E60F17;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+#again-btn:hover {
+  background: #F82414;
+}
+
+.hide {
+display: none;
 }
 
 .footer {
